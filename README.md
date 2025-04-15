@@ -28,6 +28,7 @@ This Terraform project provisions an AWS infrastructure that includes:
    - Public route table associated with a subnet.
    - Security groups for EC2
 
+note: also a mySql database is created but not used
 
 ## **Prerequisites**
 1. Install [Terraform](https://www.terraform.io/downloads).
