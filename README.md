@@ -1,10 +1,5 @@
 # Structure
-terraform/
-│    ├── main.tf                # Main Terraform configuration file
-│    ├── variables.tf           # Variables used in the Terraform configuration
-│    ├── outputs.tf             # Outputs for the Terraform configuration
-│    ├── README.md              # Documentation for the project
-│    └── main.py                # application with meetings database
+![image](https://github.com/user-attachments/assets/fce4e257-b086-4253-9007-9e5aae3e13bb)
 
 # Terraform Infrastructure for EC2, DynamoDB
 
@@ -43,17 +38,19 @@ This Terraform project provisions an AWS infrastructure that includes:
 ### **1. Clone the Repository**
 
 git clone https://github.com/vasilebelmega/terraform.git
+
 cd terraform
 
 terraform init
 terraform plan
 terraform apply
 
-take ip from output e.g:![image](https://github.com/user-attachments/assets/bbac024a-a019-4a22-a3f2-eba9f83968e6) wait untill application is running
+take ip from output e.g:![image](https://github.com/user-attachments/assets/bbac024a-a019-4a22-a3f2-eba9f83968e6) wait until application is running
 http://<app_server_ip>:8081
 
 
 *Destroy after to avoid costs:
+
 terraform destroy
 
 
