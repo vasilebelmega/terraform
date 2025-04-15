@@ -42,8 +42,11 @@ git clone https://github.com/vasilebelmega/terraform.git
 cd terraform
 
 terraform init
+
 terraform plan
+
 terraform apply
+
 
 take ip from output e.g:![image](https://github.com/user-attachments/assets/bbac024a-a019-4a22-a3f2-eba9f83968e6) wait until application is running
 http://<app_server_ip>:8081
