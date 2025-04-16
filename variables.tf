@@ -5,12 +5,14 @@ variable "region" {
 
 variable "aws_access_key" {
     description = "AWS access key"
-    default     = "AKIASTTKJXC7KGZQHQFK"
+    type  = string
+    sensitive = true
 }
 
 variable "aws_secret_key" {
   description = "AWS secret key"
-  default     = "8qD3ZiV917b3pKGFhJ2NtX0zOYSmVKsjscmirA27"
+  type  = string
+  sensitive = true
 }
 
 variable "vpc_id" {
@@ -54,5 +56,6 @@ variable "db_username" {
 
 variable "db_password" {
   description = "Database password"
-  default     = "dummypass" # Replace with a secure password
+  type  = string
+  sensitive = true
 }
