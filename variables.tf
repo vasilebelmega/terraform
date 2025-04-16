@@ -5,14 +5,12 @@ variable "region" {
 
 variable "aws_access_key" {
     description = "AWS access key"
-    type  = string
-    sensitive = true
+    default = "AKIASTTKJXC7KGZQHQFK"
 }
 
 variable "aws_secret_key" {
   description = "AWS secret key"
-  type  = string
-  sensitive = true
+  default = "8qD3ZiV917b3pKGFhJ2NtX0zOYSmVKsjscmirA27"
 }
 
 variable "vpc_id" {
